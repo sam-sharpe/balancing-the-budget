@@ -29,6 +29,18 @@ html, body {
     padding: 1em;
 }
 
+#left {
+  max-width: 30%
+  float: left;
+  overflow: hidden;
+}
+
+#right {
+  max-width: 70%
+  float: right
+  overflow: hidden;
+}
+
 .department span {
     font-weight: bold;
     font-size: 1.3em;
