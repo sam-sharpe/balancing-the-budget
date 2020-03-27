@@ -49,12 +49,14 @@ html, body {
 
 .total_budget.warning {
   color: #e8d82a;
+  font-size: 3em;
 }
 
 .total_budget.error {
-  font-weight: bold;
   color: #E00c0a;
+    font-size: 3em;
 }
+
 
 input {
     width: 100%;
