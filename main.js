@@ -21,13 +21,13 @@ const warning_message = "You are getting close to budget. Make good choices.";
 
 if (running_total >= 0 && running_total <= 100) {
   $(".total_budget").addClass("warning").removeClass("error");
-  $(".total_budget h4").text(warning_message);
+  $("#right").text(warning_message);
 } else if (running_total <= 0) {
   $(".total_budget").addClass("error").removeClass("warning");
-  $(".total_budget h4").text(error_message);
+  $("#right").text(error_message);
 } else {
     $(".total_budget").removeClass("error warning");
-    $(".total_budget h4").text("");
+    $("#right").text("");
   };
 
 $(".total_budget span").text(running_total);
